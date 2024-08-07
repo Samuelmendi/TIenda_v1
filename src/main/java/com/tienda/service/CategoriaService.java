@@ -11,7 +11,6 @@ public interface CategoriaService {
     
     public List<Categoria> getCategorias(boolean activos);
     
-    
     public Categoria getCategoria(Categoria categoria);
     
     public void save(Categoria categoria);
