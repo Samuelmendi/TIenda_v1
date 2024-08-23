@@ -24,14 +24,12 @@
                                 to.descripcion}]]</h5>
                             aImagen}}" height="200"/>
                             <figure>
-                                <img th:src="@{${producto.rut
-                                     <figcaption>[[${producto.prec
-                                     io}+' ('+${producto.existencias}+')']]
+                                <img th:src="@{${producto.rut<figcaption>[[${producto.precio}+' 
+                                     ('+${producto.existencias}+')']]
                                      </figcaption>
                                      </figure>
                                      <form>
-                                     <input type="hidden" name="te
-                                     xto" th:value="${producto.idProducto}"/>
+                                     <input type="hidden" name="texto" th:value="${producto.idProducto}"/>
                                 <input type="hidden" name="te
                                        xto" th:value="${producto.existencias}"/>
                                 <button class="btn btn-ligth" 
